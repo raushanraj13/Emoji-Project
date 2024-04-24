@@ -1,0 +1,118 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url("Emoji-mainpage.jpg");
+}
+
+#heading {
+    
+    text-align: center;
+    color: #c50971;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+
+#search {
+    color: #0192be;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+image{
+    opacity: 40%;
+}
+
+#button {
+    color: #04af8a;
+    margin: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .parent{
+        flex-direction: column;
+        width: 90%;
+    } 
+}
+
+/* .parent {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #880303;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(235, 221, 221, 0.1);
+    background-image: url("emoji-result.jpg");
+}
+
+.parent span {
+    margin-bottom: 5px;
+}
+
+.parent span:first-child {
+    font-size: 24px;
+}
+
+.parent span:nth-child(2) {
+    color: #666;
+}
+
+.parent span:last-child {
+    color: #333;
+} */
+
+.parent {
+    border: 1px solid #9c0909;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px; 
+    height: 150px; 
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+
+.parent span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.parent span:first-child {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
